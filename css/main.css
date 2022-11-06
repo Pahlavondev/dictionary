@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1348px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.header-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 1100px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  padding: 16px 33px;
+  margin-right: 42px;
+}
+
+.search-button {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  background-color: #111111;
+  border-radius: 12px;
+  padding: 17px 40px 16px 39px;
+}
+
+.dictionary {
+  background: #ffffff;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.11);
+  border-radius: 14px;
+  padding: 37px 32px;
+  min-height: 500px;
+}
+
+.dictionary-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+
+.dictionary-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.dictionary-span {
+  display: block;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 34px;
+  margin-left: 32px;
+}
+
+.dictionary-audio-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 41px;
+}
+
+.dictionary-audio-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.dictionary-audio-span {
+  margin-left: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+section {
+  margin-bottom: 37px;
+}
